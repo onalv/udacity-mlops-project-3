@@ -21,7 +21,7 @@ app = FastAPI()
 
 @app.get("/")
 async def get_items():
-    return {"message": "Greetings!"}
+    return {"message": "Greetings stranger!"}
 
 
 @app.post("/")
