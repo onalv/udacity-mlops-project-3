@@ -88,7 +88,7 @@ def compute_score_per_slice(trained_model, test, encoder,
     encoder : joblib.load
     lb : joblib.load
     cat_features : list
-    root_path : str    
+    root_path : str
     """
     with open(f'{root_path}/model/slice_output.txt', 'w') as file:
         for category in cat_features:
